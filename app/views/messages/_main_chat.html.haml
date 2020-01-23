@@ -1,0 +1,28 @@
+.main-chat
+  .main-chat_user
+    .main-chat_user-name
+      user-name
+    .main-chat_user-edit
+      %input.edit-button{:type => "submit", :value => "SEND"}
+    .main-chat_user-groups
+      member: groups-name
+  .main-chat_main
+    .main-chat_main-user-name
+      user-name
+      .main-chat_main-time
+        2012/1/23
+    .main-chat_main-text
+      hoge
+    .main-chat_main-user-name
+      user-name
+      .main-chat_main-time
+        2012/1/23
+    .main-chat_main-text
+      hoge
+      
+  .main-chat_form
+    .main-chat_form-do
+      %input.form-text{:placeholder => "type a messages", :type => 'text'}
+      %input.form-button{:type => "submit", :value => "SEND"}
+    .main-chat_form-do-for
+      %i.fa.fa-camera-retro
